@@ -1,0 +1,27 @@
+<%- include('header') %>
+
+
+<div class="jumbotron centered">
+    <div class="container">
+      <i class="fas fa-key fa-6x"></i>
+      <h1 class="display-3">Curry-API</h1>
+      <p class="lead">keep your Currency under roof anonymously!</p>
+      <hr>
+      <form action="/check" method="POST">
+        <div class="form-group">
+          <label for="from">Enter Currency format One</label>
+          <input type="text" width="auto" class="form-control" id="from" name="from">
+        </div>
+        <div class="form-group">
+          <label for="exampleInputPassword1">Enter Currency format two</label>
+          <input type="text" class="form-control" id="to" name="to">
+        </div>
+        <button type="submit" class="btn btn-primary">Check?</button>
+      </form>
+  
+    </div>
+  </div>
+
+
+<%- include('footer') %>
+

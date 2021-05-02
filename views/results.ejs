@@ -1,0 +1,24 @@
+<%- include('header') %>
+
+<div class="jumbotron centered">
+    <div class="container">
+      <i class="fas fa-key fa-6x"></i>
+      <h1 class="display-3">Curry-API</h1>
+      <p class="lead">keep your Currency under roof anonymously!</p>
+      <hr>
+      <div class="card">
+        <h5 class="card-header">Search Results</h5>
+        <div class="card-body">
+          <h5 class="card-title"><%=from%> => <%=to%></h5>
+          <p class="card-text">1 <%=from%> is equivalent to <%=conversion%>  <%=to%> </p>
+          <p class="text-end">as of <%=date%></p>
+          <a class="btn btn-primary btn-sm" href="/" role="button">New Search!</a>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+
+
+<%- include('footer') %>
+
